@@ -1,0 +1,12 @@
+<html>
+<body>
+<form name="htmlform" method="post" action="form_send.php">
+	<label for="raw">Enter IPN Message from sandbox.paypal.com here:<br></label>
+	<textarea cols="50" rows="20" name="raw"></textarea>
+	<br>
+	<label for="ipn">Location of IPN listener (if different):</label>
+	<input type="text" name="ipn" value="http://localhost/uc_paypal/ipn" size="50"><br>
+	<input type="submit" value="convert to IPN post">
+</form>
+</body>
+</html>
