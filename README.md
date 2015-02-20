@@ -11,7 +11,7 @@ However, the order will remain at a "Pending" or "In Checkout" state, as PayPal 
 
 ###How to use it
 1. Make the test payment through PayPal's sandbox - your order should be in a "Pending" state
-2. Place these files somewhere where they will be accesible by localhost (e.g. in your htdocs, or equivalent, folder)
+2. Place the files from this repository somewhere where they will be accesible by localhost (e.g. in your htdocs, or equivalent, folder)
 3. Open index.html
 4. Grab the IPN message from http://sandbox.paypal.com by logging in as the test seller account and selecting History > IPN History from the top menu and selecting the message you want to mimic
 5. Enter the IPN message into index.html and change the location of your IPN listener (if different from that shown).
