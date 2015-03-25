@@ -20,7 +20,7 @@ while (strstr($raw, '=')) {
 	$variables[$variable] = $value;
 }
 
-echo '<br><form target="_new" method="post" action="'.$ipn.'">';
+echo '<br><form method="post" action="'.$ipn.'">';
 foreach ($variables as $variable => $value) {
 	echo '<input type="hidden" name="'.$variable.'" value="'.$value.'"/>';
 }
